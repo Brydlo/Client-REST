@@ -13,5 +13,22 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <dependencies>
+        <!-- implementacje technologii Jakarta JSON P
+             - Glassfish to starsza wersja,
+             - Eclipse Parsson to nowsza -->
+        <!--
+                <dependency>
+                    <groupId>org.glassfish</groupId>
+                    <artifactId>jakarta.json</artifactId>
+                    <version>2.0.1</version>
+                </dependency>
+                -->
+        <dependency>
+            <groupId>org.eclipse.parsson</groupId>
+            <artifactId>parsson</artifactId>
+            <version>1.1.4</version>
+        </dependency>
+    </dependencies>
 
 </project>
